@@ -1,0 +1,78 @@
+html, body {
+	min-height: 100%;
+	width: 100%;
+}
+
+#main {
+	width: 1280px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.container {
+	height: 1000px;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	max-width: 1920px;
+	position: relative;
+	margin: 0 auto;
+	border-top: 1px solid rgba(255,255,255,0.3);
+	border-top: 1px solid rgba(0,0,0,0.4);
+	box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#first {
+	background:url(../img/slide3.jpg) 50% 0 no-repeat;
+}
+
+#second {
+	background:url(../img/slide4.jpg) 50% 0 no-repeat;
+}
+
+#third {
+	background:url(../img/slide2.jpg) 50% 0 no-repeat;
+}
+
+#fourth {
+	background:url(../img/puckered.png) 50% bottom no-repeat;
+}
+
+#logo {
+	position: fixed;
+	font-size: 175px;
+	width: 616px;
+	height: 180px;
+	left: 50%;
+	margin-top: 200px;
+	margin-left: -313px;
+}
+
+#photo {
+	position: fixed;
+	background:url(../img/photo.png);
+	width: 345px;
+	height: 368px;
+	left: 50%;
+	margin-left: -400px;
+	margin-top: 1100px;
+}
+
+#box {
+	position: relative;
+	width: 400px;
+	height: auto;
+	background-color: red;
+	margin-top: 1200px;
+	margin-left: 300px;
+}
+
+#end {
+	position: relative;
+	background:url(../img/theend.png);
+	width: 343px;
+	height: 94px;
+	left: 50%;
+	margin-left: -400px;
+	margin-top: 1700px;
+}
